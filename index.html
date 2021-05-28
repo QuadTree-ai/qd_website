@@ -16,6 +16,19 @@
   <meta name="twitter:image" content="lib_uomjznwutnhzeltw/z6471qoz54ok0fpt.png">
   <link rel="icon" href="lib_uomjznwutnhzeltw/3pzttlpqgi6w2z5s.png">
   <link rel="canonical" href="https://36sxba3v18ld.landen.co">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2SH6WS9KHB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-2SH6WS9KHB');
+  </script>
+
   <link rel="stylesheet" href="css/36sxba3v18ld-c11c01d852d2b05237c9d50be89056c7aaee7450.css">
   <style type="text/css">
     body {
@@ -1333,9 +1346,9 @@
           var t;
           null !== history.state && history.state.smoothScroll && history.state.smoothScroll === JSON.stringify(
             v) && history.state.anchor && ((t = document.querySelector(s(c(history.state.anchor)))) && O
-              .animateScroll(t, null, {
-                updateURL: !1
-              }))
+            .animateScroll(t, null, {
+              updateURL: !1
+            }))
         }
 
         function i(e) {
@@ -1349,7 +1362,7 @@
         }, O.init = function (e) {
           if (!("querySelector" in document && "addEventListener" in I && "requestAnimationFrame" in I &&
               "closest" in I.Element.prototype))
-          throw "Smooth Scroll: This browser does not support the required JavaScript methods and browser APIs.";
+            throw "Smooth Scroll: This browser does not support the required JavaScript methods and browser APIs.";
           O.destroy(), v = C(H, e || {}), S = v.header ? document.querySelector(v.header) : null, E = L(S),
             document.addEventListener("click", n, !1), S && I.addEventListener("resize", i, !1), v.updateURL && v
             .popstate && I.addEventListener("popstate", a, !1)
